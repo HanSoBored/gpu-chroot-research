@@ -1,0 +1,17 @@
+# Ignore build artifacts
+build/
+*.o
+*.so
+*.out
+
+# Ignore temporary/compiled tools in root if any
+opencl_test_linux
+print_ioctl
+scan_ioctl
+scan_all_ioctls
+scan_all_iowr_ioctls
+scan_R_ioctls
+
+# Ignore OS/Editor specific files
+.DS_Store
+*.swp
